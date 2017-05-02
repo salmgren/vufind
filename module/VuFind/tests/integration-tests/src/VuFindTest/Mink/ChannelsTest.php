@@ -94,6 +94,7 @@ class ChannelsTest extends \VuFindTest\Unit\MinkTestCase
         $channel = $this->findCss($page, '#channel-87d1fea774ce31e819cfa1e721280847');
         // Click link to go to search results
         $this->findCss($channel, '.channel_search')->click();
+        $this->snooze();
         // Make sure the search translated
         $this->assertEquals(
             'building:"weird_ids.mrc"',
