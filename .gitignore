@@ -12,12 +12,13 @@ composer.phar
 import/solrmarc.log
 node_modules
 public/swagger-ui
-/cronCommands
 /local/
+/cronCommands
 /clearSolr_local.sh
-/ftpSirsi.sh
 /cronRestart.sh
 /sudoCronCommands
 /importFiles.sh
+/ftpSirsi.sh
+/mrc/
 /themes/txwes/
 /nbproject/
