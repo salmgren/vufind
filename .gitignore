@@ -3,6 +3,7 @@
 ChangeLog
 \#*
 .\#*
+.php_cs_cache
 TAGS
 *~
 /downloads
@@ -12,13 +13,4 @@ composer.phar
 import/solrmarc.log
 node_modules
 public/swagger-ui
-/local/
-/cronCommands
-/clearSolr_local.sh
-/cronRestart.sh
-/sudoCronCommands
-/importFiles.sh
-/ftpSirsi.sh
-/mrc/
-/themes/txwes/
-/nbproject/
+.vagrant
